@@ -4,7 +4,7 @@ This project aims to verify the authenticity of handwritten signatures using a d
 
 ---
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 Organize your dataset as follows:
 
@@ -14,7 +14,7 @@ Organize your dataset as follows:
 
 ---
 
-## 🔧 Features
+## Features
 
 - Uses pre-trained **DenseNet169** for robust feature extraction
 - Custom classification head for binary classification
@@ -24,7 +24,7 @@ Organize your dataset as follows:
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### 1. Preprocessing
 Images are resized to 224x224 and preprocessed using DenseNet-specific preprocessing.
@@ -48,13 +48,8 @@ Loads a sample image and outputs:
 
 ---
 
-## 🖼️ Example Output
 
-![Prediction Example](https://via.placeholder.com/500x300.png?text=Predicted:+Real,+Accuracy:+98.45%)
-
----
-
-## 📈 Future Enhancements
+## Future Enhancements
 
 - Train for more epochs for better generalization
 - Apply data augmentation (rotation, zoom, etc.)
@@ -64,7 +59,7 @@ Loads a sample image and outputs:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.x
 - TensorFlow 2.x
